@@ -145,6 +145,10 @@
   .profile-wrapper .profile-img {
     max-width: 140px;
   }
+  .profile-links a {
+    font-size: 15px;
+    margin: 0 6px;
+  }
   .work-section {
     padding: 16px 0;
   }
