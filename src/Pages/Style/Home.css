@@ -61,6 +61,9 @@
   margin: 0 1%;
   font-size: clamp(12px, 1.172vw, 18px);
 }
+.profile-links a:first-of-type {
+  margin-left: 0;
+}
 
 .profile-links a svg {
   display: block;
