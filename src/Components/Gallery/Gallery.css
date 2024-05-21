@@ -1,0 +1,57 @@
+.gallery {
+  display: grid;
+  grid-template-rows: 10rem 10rem 10rem; /* Set each row height to 10rem */
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  grid-template-areas:
+    "item-1 item-2 item-3"
+    "item-4  item-2 item-5"
+    "item-4  item-6 item-5";
+}
+
+.gallery img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+  filter: contrast(90%) saturate(80%) grayscale(0%);
+  cursor: pointer;
+}
+
+.gallery .item-1 {
+  grid-area: item-1;
+}
+
+.gallery .item-2 {
+  grid-area: item-2;
+}
+.gallery .item-3 {
+  grid-area: item-3;
+}
+.gallery .item-4 {
+  grid-area: item-4;
+}
+.gallery .item-5 {
+  grid-area: item-5;
+}
+.gallery .item-6 {
+  grid-area: item-6;
+}
+
+@media (max-width: 650px) {
+  .gallery {
+    display: grid;
+    grid-template-rows: 10rem 10rem;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    grid-template-areas:
+      "item-1 item-2"
+      "item-3 item-4"
+      "item-5 item-4"
+      "item-5 item-6";
+  }
+  .gallery .item-6 {
+    height: 10rem;
+  }
+}

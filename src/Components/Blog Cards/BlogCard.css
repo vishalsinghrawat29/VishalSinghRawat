@@ -1,0 +1,50 @@
+.blog-card {
+  padding: 2%;
+  margin-bottom: 4%;
+  border: 1px solid var(--border-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.blog-card h4 {
+  font-weight: 600;
+}
+
+.blog-card p {
+  line-height: 1.8;
+  padding-top: 1%;
+}
+
+.blog-card:hover {
+  background-color: var(--widget-background);
+  transition: all 0.3s ease-in-out;
+}
+.blog-card:hover .arrow-btn svg {
+  transform: rotate(-12deg);
+  transition: all 0.3s ease-in-out;
+}
+.blog-card .blog-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+.blog-card .arrow-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1%;
+}
+.blog-card .arrow-btn svg {
+  font-size: clamp(16px, 1.303vw, 20px);
+  font-weight: 400;
+  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 400px) {
+  .blog-card {
+    padding: 12px;
+    margin-bottom: 16px;
+  }
+}

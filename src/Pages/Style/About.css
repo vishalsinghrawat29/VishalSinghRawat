@@ -1,0 +1,177 @@
+.about-image {
+  max-width: 250px;
+  width: 35%;
+  background-color: var(--widget-background);
+  border-radius: clamp(15px, 1.954vw, 30px);
+  margin: 8% 0 0;
+}
+
+.about-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: clamp(15px, 2.084vw, 40px);
+  filter: contrast(88%) saturate(70%) grayscale(0);
+}
+
+.about-intro {
+  padding: 4% 0 0.5%;
+}
+
+.about-intro .name {
+  font-weight: 600;
+  padding: 0;
+}
+.about-intro .designation {
+  font-weight: 400;
+  padding-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.about-body {
+  padding: 0 0 1%;
+}
+
+.about-body p {
+  padding-top: 2.5%;
+  line-height: 1.8;
+}
+
+.about-experience {
+  padding: 1% 0;
+}
+
+.about-experience h4 {
+  font-weight: 600;
+  padding: 0%;
+}
+
+.experience-card {
+  padding: 1% 0;
+}
+
+.experience-card p a {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+  text-decoration: none;
+  position: relative;
+}
+.experience-card p a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 25%;
+  left: 0;
+  right: 0;
+  background-color: var(--border-color);
+  width: 0%;
+  height: 30%;
+  transform: skew(-12deg) translate(0%, 40%);
+  background: var(--brand-color);
+  z-index: -1;
+}
+
+.experience-card p:hover a:after {
+  width: 100%;
+  transition: all 0.5s ease-in-out;
+}
+.experience-card p:first-of-type {
+  font-weight: 600;
+}
+.experience-card p:last-of-type {
+  font-weight: 400;
+  color: var(--text-color);
+  opacity: 0.9;
+}
+
+.about-education {
+  padding: 1% 0;
+}
+
+.about-education h4 {
+  font-weight: 600;
+  padding: 0%;
+}
+
+.education-card {
+  padding: 1% 0;
+}
+
+.education-card p {
+  font-weight: 600;
+}
+.education-card span {
+  display: block;
+}
+
+.about-skills {
+  padding: 1% 0;
+}
+
+.about-skills h4 {
+  font-weight: 600;
+  padding: 0%;
+}
+
+.skills-container {
+  padding: 1% 0;
+}
+
+.skills-container p {
+  line-height: 1.8;
+  padding: 0.25% 0;
+}
+.skills-container p span {
+  font-weight: 600;
+  font-size: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+.about-end {
+  padding: 0 0 1%;
+}
+
+.about-end p {
+  line-height: 1.8;
+}
+
+.about-end p a {
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+@media (max-width: 400px) {
+  .about-image {
+    width: 150px;
+    margin-top: 32px;
+  }
+  .about-intro {
+    padding: 16px 0 8px;
+  }
+  .about-body {
+    padding: 0 0 8px;
+  }
+  .about-end {
+    padding: 0 0 16px;
+  }
+  .about-body p {
+    padding-top: 6px;
+  }
+  .about-experience,
+  .about-education,
+  .about-skills {
+    padding: 12px 0;
+  }
+  .experience-card,
+  .education-card,
+  .skills-container {
+    padding: 6px 0;
+  }
+}

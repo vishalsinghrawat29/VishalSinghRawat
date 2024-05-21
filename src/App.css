@@ -1,0 +1,67 @@
+.primary-btn,
+.secondary-btn {
+  border: 1px solid var(--primary-color);
+  background: transparent;
+  display: block;
+  padding: 1% 3%;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  z-index: 2;
+  border-radius: 3px;
+}
+
+.primary-btn::after,
+.secondary-btn::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--primary-color);
+  transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.primary-btn {
+  color: var(--secondary-color);
+}
+
+.primary-btn:hover {
+  color: var(--primary-color);
+}
+
+.primary-btn:hover::after {
+  transform: translateY(-100%);
+}
+
+.secondary-btn {
+  color: var(--primary-color);
+}
+
+.secondary-btn:hover {
+  color: var(--secondary-color);
+}
+
+.secondary-btn::after {
+  transform: translateY(-100%);
+}
+
+.secondary-btn:hover::after {
+  transform: translateY(0%);
+}
+
+.page-container {
+  max-width: 768px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1.5% 1.5% 0.5%;
+}
+
+@media (max-width: 400px) {
+  .page-container {
+    width: 100%;
+    padding: 16px 16px 8px;
+  }
+}

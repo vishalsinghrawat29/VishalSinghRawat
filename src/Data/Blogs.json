@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Git and Github: a beginner's guide",
+      "description": "Learn to track changes in your code with Git, collaborate with teams on GitHub, and master essential commands for efficient project management. Perfect for beginners!",
+      "url": "https://thevishalsinghrawat.hashnode.dev/git-and-github-a-beginners-guide",
+      "image": "https://res.cloudinary.com/dfg5pklq1/image/upload/f_auto,q_auto/v1/Vishal's%20Portfolio/Blogs%20Thumbnail/ig1i1tgtoaivx4nvsiys"
+    },
+    {
+      "title": "Layout Basics With Flexbox",
+      "description": "Dive into CSS Flexbox for effortless layout design. Learn key properties for parent containers and child elements, enabling seamless alignment and responsive layouts.",
+      "url": "https://thevishalsinghrawat.hashnode.dev/layout-basics-with-flexbox",
+      "image": "https://res.cloudinary.com/dfg5pklq1/image/upload/f_auto,q_auto/v1/Vishal's%20Portfolio/Blogs%20Thumbnail/tcvef00km5lexdahnzi6"
+    },
+    {
+      "title": "What is the difference between '==' and '===' in JS?",
+      "description": "Discover the crucial dissimilarities between '==' and '===' in JavaScript! Unravel the mysteries of these operators for clearer and more reliable code",
+      "url": "https://thevishalsinghrawat.hashnode.dev/what-is-the-difference-between-and-in-js",
+      "image": "https://res.cloudinary.com/dfg5pklq1/image/upload/f_auto,q_auto/v1/Vishal's%20Portfolio/Blogs%20Thumbnail/wszttgmb3dr6fltnf5hg"
+    },
+    {
+      "title": "Why does the console return undefined on executing the log method?",
+      "description": "Unravel the mystery of why console.log() often returns  \\\"undefined \\\" in JavaScript. Understand function returns and their implications with clear examples.",
+      "url": "https://thevishalsinghrawat.hashnode.dev/why-does-the-console-return-undefined-on-executing-the-log-method",
+      "image": "https://res.cloudinary.com/dfg5pklq1/image/upload/f_auto,q_auto/v1/Vishal's%20Portfolio/Blogs%20Thumbnail/ckayqcqpdycek8dcox8y"
+    },
+    {
+      "title": "Type Error vs Reference Error",
+      "description": "Explore the differences between TypeError and ReferenceError in JavaScript, with examples clarifying their distinct behaviors and solutions. Understand common scenarios for each error type.",
+      "url": "https://thevishalsinghrawat.hashnode.dev/type-error-vs-reference-error",
+      "image": "https://res.cloudinary.com/dfg5pklq1/image/upload/f_auto,q_auto/v1/Vishal's%20Portfolio/Blogs%20Thumbnail/dt9kc08oa5d33kkesaaq"
+    }
+  ]
+}

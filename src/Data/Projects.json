@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "title": "iShare- Social Media App",
+      "description": "iShare is a social media app for connecting, sharing content, and engaging with others. It offers features like customizable user profiles, post creation with images and emojis, liking, editing, and deleting posts, follow/unfollow options, explore feed, bookmarking, and user authentication.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Mockbee",
+        "React-Toastify"
+      ],
+      "live": "https://ishare-vishal.netlify.app/",
+      "sourceCode": "https://github.com/vishalsinghrawat29/ishare/"
+    },
+    {
+      "title": "Minute - Ecommerce Web App for Watches",
+      "description": "Minute is a ecommerce web app for buying watches. It offers features like product browsing, detailed product pages, filtering options, wishlist and cart management, user authentication, address management, and secure payments via RazorPay integration",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Mockbee",
+        "RazorPay"
+      ],
+      "live": "https://minute-vishal.netlify.app/",
+      "sourceCode": "https://minute-vishal.netlify.app/"
+    }
+  ]
+}
